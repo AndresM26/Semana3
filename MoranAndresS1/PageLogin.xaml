@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MoranAndresS1.PageLogin">
+    <ContentPage.Content>
+      
+        <Grid>
+            
+
+            <StackLayout>
+                <Image Source="https://chefrito.com/viewClient/img/80105769-user-login.jpg"/>
+                        
+                <Entry x:Name="txtUser" Placeholder="Ingrese Usuario"/>
+                <Entry x:Name="txtPass" Placeholder="Ingrese Clave" IsPassword="True"/>
+
+                <Button x:Name="btnAbrir"  Text="abrir" Clicked="btnAbrir_Clicked"/>
+
+                <Label x:Name="lblError" Text=" " TextColor="Red"></Label>
+
+            </StackLayout>
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>
